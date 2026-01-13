@@ -181,6 +181,20 @@ main > section{
     filter: grayscale(100%);
 }
 
+/* footer section */
+.footer-section{
+    background-color: #FFF4E7;
+    max-width: 1140px;
+    margin: 169px auto;
+    border-radius: 8px;
+}
+.footer-box{
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    font-size: 1.25rem;
+}
+
 /* media quary responsive area for small device */
 @media screen and (max-width: 576px){
     .navbar,
