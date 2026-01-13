@@ -101,6 +101,29 @@ main > section{
 #quick-list{
     font-weight: 500;
 }
+/* features related style */
+#features-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.features{
+    gap: 140px;
+}
+.feature-card{
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    gap: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.feature-card .card-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 /* some fact card releted style */
 .facts-container{
     display: grid;
